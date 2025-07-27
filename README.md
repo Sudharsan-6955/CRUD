@@ -27,7 +27,7 @@ A simple Node.js + Express + MongoDB CRUD application to manage users. Built wit
 ## 📁 Project Structure
 
 CRUD/
-├── controllers/
+├── controllers/                                                                                                                                                              
 │ └── controlling.js # All CRUD logic
 ├── dB/
 │ └── db.js # MongoDB connection
