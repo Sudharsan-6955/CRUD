@@ -28,17 +28,17 @@ A simple Node.js + Express + MongoDB CRUD application to manage users. Built wit
 
 CRUD/
 ├── controllers/                                                                                                                                                              
-│ └── controlling.js # All CRUD logic
-├── dB/
-│ └── db.js # MongoDB connection
-├── models/
-│ └── user.model.js # Mongoose schema
-├── Routes/
-│ └── routing.js # Express routes
-├── .env # Your secret configs (should be gitignored)
-├── .gitignore
-├── package.json
-└── server.js # Entry point
+│ └── controlling.js # All CRUD logic                                                                                                                                         
+├── dB/                                                                                                                                                                       
+│ └── db.js # MongoDB connection                                                                                                                                              
+├── models/                                                                                                                                                                   
+│ └── user.model.js # Mongoose schema                                                                                                                                         
+├── Routes/                                                                                                                                                                   
+│ └── routing.js # Express routes                                                                                                                                             
+├── .env # Your secret configs (should be gitignored)                                                                                                                         
+├── .gitignore                                                                                                                                                                
+├── package.json                                                                                                                                                              
+└── server.js # Entry point                                                                                                                                                   
 
 # Run this cmd 
 CRUD >node server.js
